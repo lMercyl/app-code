@@ -1,0 +1,27 @@
+.top {
+  grid-column: 12 span;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+
+  .periods {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    background-color: var(--white-smoke);
+    border-radius: 8px;
+
+    .period {
+      margin-right: 8px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.gridItem {
+  grid-column: 6 span;
+}
